@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Open+Sans:wght@400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    padding: 30px 20px;
+    height: 100vh;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.screen-header {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.screen-header-icon {
+    justify-content: space-between;
+}
+.screen-header-title {
+    font-size: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-right: 10vw;
+}
+.playlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+    flex-wrap: wrap;
+}
+.playlist-image {
+    width: 140px;
+    height: 140px;
+    background-color: #ffbd11;
+    border: 2px solid black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist-image i {
+    color: white;
+    padding-bottom: 5px;
+}
+.playlist-name {
+    width: 200px;
+    padding-left: 20px;
+}
+.playlist-name__title {
+    font-size: 40px;
+    line-height: 110%;
+    padding-bottom: 15px;
+}
+.playlist-name__subtitle {
+    font-size: 18px;
+    opacity: 0.9;
+}
+.playlist-icons {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+.playlist-icon {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    box-shadow: 0px 5px black;
+}
+.play-icon {
+    width: 180px;
+    border-radius: 15px;
+}
+.play-icon i {
+    margin-right: 10px;
+}
+.play-icon span {
+    font-size: 25px;
+}
+.playlist-songs {
+    margin-top: 40px;
+    margin-left: -70px;
+}
+.playlist-song {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.playlist-song__image {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 20%;
+}
+.playlist-song:nth-child(1) .playlist-song__image {
+    background-color: #f85a2a;
+}
+.playlist-song:nth-child(2) .playlist-song__image {
+    background-color: #ff89bb;
+}
+.playlist-song:nth-child(3) .playlist-song__image {
+    background-color: #1947e5;
+}
+.playlist-song:nth-child(4) .playlist-song__image {
+    background-color: #00c6ad;
+}
+.playlist-song__name {
+    margin-left: 15px;
+}
+.playlist-song__name__title {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.playlist-song__name__subtitle {
+    font-weight: 600;
+    opacity: 0.6;
+}

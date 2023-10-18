@@ -1,0 +1,31 @@
+body {
+    background-color: tomato;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.large-box {
+    height: 243px;
+    width: 243px;
+    background-color: wheat;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.small-box {
+    height: 52px;
+    width: 52px;
+    background-color: teal;
+    border: 3px solid white;
+}
+.long-box {
+    height: 52px;
+    width: 200px;
+    background-color: teal;
+    border: 3px dashed white;
+}

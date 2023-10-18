@@ -1,0 +1,68 @@
+body {
+    background-color: #6bbcbe;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.circles__circle {
+    width: 10px;
+    height: 10px;
+    margin: 0px 12px;
+    border-radius: 50%;
+}
+.element {
+    background-color: white;
+}
+.squares__square {
+    width: 10px;
+    height: 40px;
+    margin: 0px 3px;
+}
+.squares__square:nth-child(1) {
+    animation: expandSquare 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+}
+.squares__square:nth-child(2) {
+    animation: expandSquare 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.1s infinite;
+}
+.squares__square:nth-child(3) {
+    animation: expandSquare 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s infinite;
+}
+.squares__square:nth-child(4) {
+    animation: expandSquare 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s infinite;
+}
+.squares__square:nth-child(5) {
+    animation: expandSquare 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.4s infinite;
+}
+.circles {
+    animation: rotateCircle 1s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+@keyframes rotateCircle {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes expandSquare {
+    0% {
+        transform: scaleY(1);
+    }
+    33% {
+        transform: scaleY(2);
+    }
+    66% {
+        transform: scaleY(1);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
