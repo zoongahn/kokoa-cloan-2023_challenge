@@ -1,0 +1,13 @@
+.book-rate i {
+    color: #ffce33;
+}
+.book-rate i:last-child {
+    color: rgba(0, 0, 0, 0.1);
+}
+.rate-r {
+    margin-bottom: 20px;
+}
+.rate-sm {
+    font-size: 10px;
+    margin-bottom: 0px;
+}

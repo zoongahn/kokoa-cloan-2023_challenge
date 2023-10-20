@@ -1,0 +1,31 @@
+.screen-header {
+    background-color: #ffce33;
+    height: 100px;
+    margin-bottom: 50px;
+}
+.screen-header-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+.search-box {
+    background-color: white;
+    margin: 0px 10px;
+    padding: 10px 20px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.2);
+}
+.search-box input {
+    border: none;
+    width: 300px;
+    height: 30px;
+}
+.search-box input::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+}
