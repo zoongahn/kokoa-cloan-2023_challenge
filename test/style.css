@@ -1,56 +1,19 @@
-input[type="range"] {
-    /* removing default appearance */
-    -webkit-appearance: none;
-    appearance: none;
-    /* creating a custom design */
-    width: 100%;
-    cursor: pointer;
-    /*  slider progress trick  */
-    overflow: hidden;
-    border-radius: 16px;
-}
-
-/* Track: webkit browsers */
-input[type="range"]::-webkit-slider-runnable-track {
-    height: 15px;
-    background: #ccc;
-    border-radius: 16px;
-}
-
-/* Thumb: webkit */
-input[type="range"]::-webkit-slider-thumb {
-    /* removing default appearance */
-    -webkit-appearance: none;
-    appearance: none;
-    /* creating a custom design */
-    height: 20px;
-    width: 20px;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 2px solid #f50;
-    /*  slider progress trick  */
-    box-shadow: -307px 0 0 300px #f50;
-}
-
-/*=============
-  Aesthetics 
-  =========================*/
-
 body {
-    font-family: system-ui;
-}
-
-h1 {
-    color: #4b4949;
-    text-align: center;
-}
-
-.range {
+    height: 1000vh;
     display: flex;
-    align-items: center;
-    max-width: 500px;
-    height: 4rem;
-    width: 80%;
-    background: #fff;
-    padding: 0px 10px;
+    justify-content: center;
+}
+.parent {
+    background-color: wheat;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+.child {
+    background-color: skyblue;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 300px;
+    right: 100px;
 }

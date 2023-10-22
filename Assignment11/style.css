@@ -4,6 +4,7 @@
 
 * {
     box-sizing: border-box;
+    position: relative;
 }
 body {
     font-family: "Nunito";
@@ -140,8 +141,7 @@ body {
     border-radius: 40px;
     font-weight: 600;
     box-shadow: 0px 0px 10px 5px rgba(165, 170, 188, 0.5);
-    position: fixed;
-    bottom: 110px;
+    bottom: 60px;
 }
 .current-song-artist {
     color: rgba(255, 255, 255, 0.4);
